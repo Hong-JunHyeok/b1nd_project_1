@@ -14,16 +14,27 @@
             <div class="logo">
                 <img src="" alt="로고입니다">
             </div>
-            <div class="welcome"><h1>일정 플래너 (Project Name)</h1></div>
+            <div class="welcome">
+                <h1>일정 플래너 (Project Name)</h1>
+            </div>
             <div class="subTitle">
                 우리들의 소통공간
             </div>
             <div class="wrap_form">
-                <button class="sign_in button_style">Sign In</button>
+                <div class="login_form" id="login_form">
+                    <form action="localhost">
+                        <input type="id" id="id"><br>
+                        <input type="password" id="password">
+                        <br>
+                        <input type="submit" id="submit" value="로그인">
+                    </form>
+                </div>
+                <button class="sign_in button_style" id="js_sign_up">Sign In</button>
                 <button class="sign_up button_style">Sign Up</button>
             </div>
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
