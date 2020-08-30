@@ -17,7 +17,7 @@ function handleLoginClick(){
 }
 
 function handleSignUpClick(){
-    window.open("main.html","_self");
+    window.open("signUp.html","_self");
 }
 
 function handleSubmit(){

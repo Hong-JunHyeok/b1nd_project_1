@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 body{
     font-family: 'Noto Sans KR', sans-serif;
-    background-color: #b7de4b;
+    margin: 0;
+    padding: 0;
 }
 fieldset{
     display: flex;
@@ -9,21 +10,23 @@ fieldset{
     padding: 100px;
     font-size: 20px;
     background-color: white;
+    border: 0px;
 }
-legend{
-    font-size: 40px;
+h1{
+    border-bottom: 4px solid #b7de4b ;
 }
 .form_input{
     font-weight: bolder;
     width: 100%;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     border: 0px;
     -webkit-box-shadow: 0px 1px 7px -1px rgba(68, 71, 90, 0.58);
     -moz-box-shadow: 0px 1px 7px -1px rgba(68, 71, 90, 0.58);
     box-shadow: 0px 1px 7px -1px rgba(68, 71, 90, 0.58);
     outline: none;
     font-size: 20px;
+    transition: 1s ease;
 }
 .button{
     font-weight: 500;
@@ -32,5 +35,5 @@ legend{
 }
 .button:hover{
     background-color: #b7de4b;
-    transform: scale(0.95);
+    transform: scale(0.97);
 }

@@ -5,26 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planner</title>
-    <link rel="stylesheet" href="./main_style.css">
+    <link rel="stylesheet" href="./signUp_style.css">
 </head>
 
 <body>
     <div class="wrap">
         <form action="">
             <fieldset>
-                <legend>회원가입 정보 입력</legend>
+                <h1>회원가입</h1>
                 이름 : <input type="text" class="form_input "  placeholder="이름을 입력해주세요">
                 이메일 : <input type="email" class="form_input " placeholder="이메일을 입력해주세요">
                 비밀번호 : <input type="password"class="form_input" id="pwd" placeholder="비밀번호를 입력해주세요">
                 비밀번호(재확인) : <input type="password"class="form_input" id="pwd_chk" placeholder="다시 입력해주세요">
                 기수(학번) : <input type="text"class="form_input " placeholder="기수를 입력해주세요 예)1220">
                 <button class="form_input button" type="button">인증번호 요청</button>
-                인증번호 입력 : <input type="text" class="form_input" onclick="console.log('요청되었습니다')">
-                <input type="submit" value="회원가입" class="form_input button">
+                인증번호 입력 : <input type="text" class="form_input" placeholder="인증번호를 입력하세요">
+                <input type="submit" value="회원가입" class="form_input button">    
             </fieldset>
         </form>
     </div>
-    <script src="./main.js"></script>
+    <script src="./signUp.js"></script>
 </body>
 
 </html>
